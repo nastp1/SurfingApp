@@ -1,0 +1,14 @@
+<main class="login-main">
+  <div class="login-box">
+    <h2>Авторизация</h2>
+    <div class="input-group">
+      <label>Логин или Email</label>
+      <input type="text" [(ngModel)]="login" placeholder="Введите логин" />
+    </div>
+    <div class="input-group">
+      <label>Пароль</label>
+      <input type="password" [(ngModel)]="password" placeholder="Введите пароль" />
+    </div>
+    <button (click)="loginUser()" class="login-btn">Войти</button>
+  </div>
+</main>

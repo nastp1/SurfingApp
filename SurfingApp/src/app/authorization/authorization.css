@@ -1,0 +1,15 @@
+.login-main {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(100px);
+  background: #ffffff;
+}
+.login-box h2 {
+  transform: translateX(100px);
+}
+.input-group {
+  transform: translateY(50px);
+}
